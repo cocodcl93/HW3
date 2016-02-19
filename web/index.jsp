@@ -4,6 +4,7 @@
     Author     : Chenliang Ding
 --%>
 <%@page import="java.util.Date" %>
+<%@page import="java.text.DateFormat" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -16,6 +17,8 @@
     
     <%
         Date today = new Date();
+        DateFormat dateFormat= new DateFormat ("dd-MM-yyyy");
+        String ddMMyyyyToday = dateFormat.fomat(today)
         
     %>
     <body>

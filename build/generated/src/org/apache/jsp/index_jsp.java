@@ -49,8 +49,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <head>\n");
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
       out.write("        <title>Simple Salary Calculator</title>\n");
-      out.write("\n");
-      out.write("\n");
+      out.write("        <link rel=\"stylesheet\" type =\"text/css\" href=\"style.css\" media=\"screen\">\n");
       out.write("    </head>\n");
       out.write("\n");
       out.write("\n");

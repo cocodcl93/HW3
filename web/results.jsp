@@ -10,6 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title> Salary Calculator Results</title>
+        <link rel="stylesheet" type ="text/css" href="style.css" media="screen">
     </head>
     
     <% 
@@ -22,10 +23,7 @@
         Double otPay = 0.00;
         Double grossPay = 0.00;
         Double regularPay = 0.00;
-        Double preTaxPay = 0.00;
         Double taxAmount = 0.00;
-        Double postTaxPay = 0.00;
-        Double netPay = 0.00;
         Double regularHours = 0.00;
         
         
@@ -41,7 +39,7 @@
                 grossPay = hoursWorked * payRate;
          }
          
-        preTaxPay = grossPay - preTaxDeduct;
+        Double preTaxPay = grossPay - preTaxDeduct;
         
         if (grossPay < 500){
                 taxAmount = preTaxPay * 0.18;
@@ -49,8 +47,8 @@
         else { taxAmount =preTaxPay * 0.22;
         }
        
-        postTaxPay = preTaxPay -taxAmount;
-        netPay = postTaxPay - postTaxDeduct;
+        Double postTaxPay = preTaxPay -taxAmount;
+        Double netPay = postTaxPay - postTaxDeduct;
             
             
         

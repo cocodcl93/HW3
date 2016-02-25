@@ -55,6 +55,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("    <body>\n");
       out.write("        <h1>Simple Salary Calculator</h1>\n");
+      out.write("   \n");
       out.write("        <form name=\"salaryForm\" action=\"results.jsp\" method=\"post\">\n");
       out.write("            <table>\n");
       out.write("                <tbody>\n");

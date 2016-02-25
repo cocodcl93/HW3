@@ -16,6 +16,7 @@
 
     <body>
         <h1>Simple Salary Calculator</h1>
+   
         <form name="salaryForm" action="results.jsp" method="post">
             <table>
                 <tbody>

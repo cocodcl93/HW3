@@ -1,14 +1,14 @@
-body {
-	background-color:#053B85;
-
-	
-}
 h1 {
-	text-align:center;
-	
+	text-align:center;	
 	font-size: 3em; 
 	font-weight:bold; 
 	text-decoration: underline;
-
+	color:white
 }
 
+body{
+	background-color:#3979EF
+}
+
+
+td{color:white}
